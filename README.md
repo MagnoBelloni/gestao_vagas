@@ -1,6 +1,7 @@
 ## How to Run
 
 ### Containers
+- Put the `application-example.properties` in the `application.properties`
 - $ `docker-compose up -d`
   - this command will pull and start the following containers:
     - Postgres
@@ -11,7 +12,7 @@
 
 ## Sonarqube
 
-## Access
+### Access
 - To access sonarqube page you should access: http://localhost:9000
 - With the credentials:
   - admin
